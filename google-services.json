@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "860204147095",
+    "project_id": "vraifirebase-cb5a9",
+    "storage_bucket": "vraifirebase-cb5a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860204147095:android:3655f97eabb0ebfab4e4d2",
+        "android_client_info": {
+          "package_name": "angers.albert.VraiFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860204147095-q5otu1lpp3ort3a88m2rkac0uh29grbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl_gIHo9F6h29G4G3I4BijT5or2KfZP8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860204147095-q5otu1lpp3ort3a88m2rkac0uh29grbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
