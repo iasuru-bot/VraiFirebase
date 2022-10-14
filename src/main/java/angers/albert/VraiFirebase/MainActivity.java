@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                 RC_SIGN_IN);
     }
 
-    //Récupère les résultat de l'authentification
+    //Récupère les résultats de l'authentification
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
