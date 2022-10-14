@@ -99,7 +99,9 @@ public class MainActivity extends AppCompatActivity {
 
     //Connexion par Github
     private void startSignInGithubActivity() {
+        // On désigne GitHub comme fournisseur d'authentification
         OAuthProvider.Builder provider = OAuthProvider.newBuilder("github.com");
+        //on nous ouvre une nouvelle page pour s'authentifier en suivant le fournisseur d'authentification
         FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
 
         //Portion de code permettant de savoir si tu as déjà un compte sauvegardé sur le télephone
