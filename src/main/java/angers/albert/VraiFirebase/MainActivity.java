@@ -148,8 +148,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void quitter(View v) {
         finish();
-        finish();
-        finish();
     }
     public void deconnexion(View v) {
         FirebaseAuth.getInstance().signOut();
