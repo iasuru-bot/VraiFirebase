@@ -30,8 +30,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        connexionMail = findViewById(R.id.connexionMail);
 
+
+        connexionMail = findViewById(R.id.connexionMail);
         //lors du clique sur connexion Mail
         connexionMail.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         connexionGithub = findViewById(R.id.connexionGithub);
-
         //lors du clique sur connexion Github
         connexionGithub.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,9 +99,9 @@ public class MainActivity extends AppCompatActivity {
 
     //Connexion par Github
     private void startSignInGithubActivity() {
+
         // On désigne GitHub comme fournisseur d'authentification
         OAuthProvider.Builder provider = OAuthProvider.newBuilder("github.com");
-        //on nous ouvre une nouvelle page pour s'authentifier en suivant le fournisseur d'authentification
         FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
 
         //Portion de code permettant de savoir si tu as déjà un compte sauvegardé sur le télephone
@@ -119,12 +119,10 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onFailure(@NonNull Exception e) {
                             Toast.makeText(MainActivity.this, R.string.error_authentication, Toast.LENGTH_LONG).show();
-
                         }
                     }
             );
         } else {
-
         }*/
 
         //Lancement de l'activité de firebase github
@@ -151,9 +149,9 @@ public class MainActivity extends AppCompatActivity {
     public void quitter(View v) {
         finish();
     }
+
     public void deconnexion(View v) {
         FirebaseAuth.getInstance().signOut();
         Toast.makeText(MainActivity.this, "Deconnexion réussie", Toast.LENGTH_LONG).show();
     }
 }
-
