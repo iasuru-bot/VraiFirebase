@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">VraiFirebase</string>
-    <string name="error_authentication_canceled">Authentification annulée</string>
-    <string name="error_authentication">Erreur lors de l\'authentification</string>
-    <string name="success_authentication">Authentification réussie</string>
-</resources>
